@@ -127,3 +127,27 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+
+#local setting
+.DS_Store
+.vscode
+.idea
+
+!/conf/
+/conf/*
+!/conf/base/
+!/conf/local/
+/conf/local/*
+!/conf/*/.gitkeep
+
+!/data/
+/data/*
+!/data/external/
+/data/external/*
+!/data/interrim/
+/data/interrim/*
+!/data/processed/
+/data/processed/*
+!/data/raw/
+/data/raw/*
+!/data/*/.gitkeep
