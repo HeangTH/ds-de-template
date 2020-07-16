@@ -37,7 +37,7 @@ Both .gitkeep and .dummy are using to keep template folder structure. But they s
 Install the virtual environment with conda and activate it:
 ```
 $ conda env create -n {{name}} -f environment.yml
-$ source activate {{name}} 
+$ conda activate {{name}} 
 ```
 Install src in the virtual environment:
 ```
